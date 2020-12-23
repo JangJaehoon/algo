@@ -6,7 +6,7 @@ def divide():
 	for i in range(1, num1):
 		if(num1 % i) == 0:
 			divisor = num1 / i
-			print ("%10s"% (divisor))
+			print ("%10s"% (divisor), end=" " )
 
 			
 if __name__ == '__main__':
