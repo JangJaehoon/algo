@@ -3,11 +3,8 @@
 num1 = int(input())
 
 def divide():
-	for i in range(1, num1):
+	for i in range(1, num1+1):
 		if(num1 % i) == 0:
-			divisor = num1 / i
-			print ("%10s"% (divisor), end=" " )
+			print (i, end=' ')
 
-			
-if __name__ == '__main__':
-	divide()
+divide()
